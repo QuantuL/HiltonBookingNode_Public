@@ -18,11 +18,11 @@ Per la corretta esecuzione serve effettuare alcuni passaggi:
 
 -aprire vsCode e clonare il repository git con il comando: git clone https://github.com/QuantuL/HiltonBookingNode_Public
 
+-installare NodeJs con npm dal seguente sito: https://nodejs.org/en/download
+
 -verificare il branch:
 
     -main:
-
-        -installare NodeJs con npm dal seguente sito: https://nodejs.org/en/download
         
         -installare i moduli necesari con il seguente comando: npm install express mongoose body-parser        
         
