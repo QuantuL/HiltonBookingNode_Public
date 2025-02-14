@@ -1,0 +1,342 @@
+[{
+  "_id": {
+    "$oid": "6788d689a7b742737c664bca"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6788d625a7b742737c664ba6"
+    },
+    "name": "Hotel Hilton Rome Airport",
+    "city": "Fiumicino",
+    "postalCode": "00054",
+    "address": " Via Arturo Ferrarin 2",
+    "rating": "***"
+  },
+  "roomnumber": "101",
+  "type": "economy",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6788d68ba7b742737c664bcc"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6788d625a7b742737c664ba6"
+    },
+    "name": "Hotel Hilton Rome Airport",
+    "city": "Fiumicino",
+    "postalCode": "00054",
+    "address": " Via Arturo Ferrarin 2",
+    "rating": "***"
+  },
+  "roomnumber": "102",
+  "type": "economy",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6788d69ea7b742737c664bd4"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6788d625a7b742737c664ba6"
+    },
+    "name": "Hotel Hilton Rome Airport",
+    "city": "Fiumicino",
+    "postalCode": "00054",
+    "address": " Via Arturo Ferrarin 2",
+    "rating": "***"
+  },
+  "roomnumber": "201",
+  "type": "business",
+  "price": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6788d6a0a7b742737c664bd6"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6788d625a7b742737c664ba6"
+    },
+    "name": "Hotel Hilton Rome Airport",
+    "city": "Fiumicino",
+    "postalCode": "00054",
+    "address": " Via Arturo Ferrarin 2",
+    "rating": "***"
+  },
+  "roomnumber": "202",
+  "type": "business",
+  "price": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6788d6ada7b742737c664bde"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6788d625a7b742737c664ba6"
+    },
+    "name": "Hotel Hilton Rome Airport",
+    "city": "Fiumicino",
+    "postalCode": "00054",
+    "address": " Via Arturo Ferrarin 2",
+    "rating": "***"
+  },
+  "roomnumber": "301",
+  "type": "luxury",
+  "price": 215,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6788d6afa7b742737c664be0"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6788d625a7b742737c664ba6"
+    },
+    "name": "Hotel Hilton Rome Airport",
+    "city": "Fiumicino",
+    "postalCode": "00054",
+    "address": " Via Arturo Ferrarin 2",
+    "rating": "***"
+  },
+  "type": "luxury",
+  "price": 215,
+  "__v": 0,
+  "roomnumber": "302"
+},
+{
+  "_id": {
+    "$oid": "67a1d3c6a9048c5af821652b"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6797955dfea5970252744352"
+    },
+    "name": "Hilton Molino Stucky Venice",
+    "city": "Venezia",
+    "postalCode": "30133",
+    "address": "Giudecca, 810",
+    "rating": "*****"
+  },
+  "roomnumber": "101",
+  "type": "economy",
+  "price": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d3c8a9048c5af821652d"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6797955dfea5970252744352"
+    },
+    "name": "Hilton Molino Stucky Venice",
+    "city": "Venezia",
+    "postalCode": "30133",
+    "address": "Giudecca, 810",
+    "rating": "*****"
+  },
+  "roomnumber": "102",
+  "type": "economy",
+  "price": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d41aa9048c5af821653d"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6797955dfea5970252744352"
+    },
+    "name": "Hilton Molino Stucky Venice",
+    "city": "Venezia",
+    "postalCode": "30133",
+    "address": "Giudecca, 810",
+    "rating": "*****"
+  },
+  "roomnumber": "201",
+  "type": "business",
+  "price": 185,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d41da9048c5af821653f"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6797955dfea5970252744352"
+    },
+    "name": "Hilton Molino Stucky Venice",
+    "city": "Venezia",
+    "postalCode": "30133",
+    "address": "Giudecca, 810",
+    "rating": "*****"
+  },
+  "roomnumber": "202",
+  "type": "business",
+  "price": 185,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d429a9048c5af8216541"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6797955dfea5970252744352"
+    },
+    "name": "Hilton Molino Stucky Venice",
+    "city": "Venezia",
+    "postalCode": "30133",
+    "address": "Giudecca, 810",
+    "rating": "*****"
+  },
+  "roomnumber": "301",
+  "type": "luxury",
+  "price": 205,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d42ca9048c5af8216543"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6797955dfea5970252744352"
+    },
+    "name": "Hilton Molino Stucky Venice",
+    "city": "Venezia",
+    "postalCode": "30133",
+    "address": "Giudecca, 810",
+    "rating": "*****"
+  },
+  "roomnumber": "302",
+  "type": "luxury",
+  "price": 205,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d471a9048c5af821654d"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan",
+    "city": "Milano",
+    "postalCode": "20124",
+    "address": "Via Luigi Galvani, 12",
+    "rating": "****"
+  },
+  "roomnumber": "101",
+  "type": "economy",
+  "price": 175,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d473a9048c5af821654f"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan",
+    "city": "Milano",
+    "postalCode": "20124",
+    "address": "Via Luigi Galvani, 12",
+    "rating": "****"
+  },
+  "roomnumber": "102",
+  "type": "economy",
+  "price": 175,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d47ba9048c5af8216551"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan",
+    "city": "Milano",
+    "postalCode": "20124",
+    "address": "Via Luigi Galvani, 12",
+    "rating": "****"
+  },
+  "roomnumber": "201",
+  "type": "business",
+  "price": 195,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d47da9048c5af8216553"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan",
+    "city": "Milano",
+    "postalCode": "20124",
+    "address": "Via Luigi Galvani, 12",
+    "rating": "****"
+  },
+  "roomnumber": "202",
+  "type": "business",
+  "price": 195,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d488a9048c5af8216555"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan",
+    "city": "Milano",
+    "postalCode": "20124",
+    "address": "Via Luigi Galvani, 12",
+    "rating": "****"
+  },
+  "roomnumber": "301",
+  "type": "luxury",
+  "price": 230,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d48ba9048c5af8216557"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan",
+    "city": "Milano",
+    "postalCode": "20124",
+    "address": "Via Luigi Galvani, 12",
+    "rating": "****"
+  },
+  "roomnumber": "302",
+  "type": "luxury",
+  "price": 230,
+  "__v": 0
+}]
