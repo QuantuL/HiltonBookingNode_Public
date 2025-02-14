@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name=author content="Marco Arci">
+  <title>Admin Home</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <img src="/logo.png" alt="Hilton Logo" class="logo">
+    <h1 class="center">Welcome to the Hilton Booking Service!</h1>
+  </header>
+  <nav class="dropdown-nav">
+    <select id="menu-dropdown" onchange="handleMenuChange(this.value)">
+      <option value="prenotazioni">Reservations</option>
+      <option value="alberghi">Hotels</option>
+      <option value="camere">Rooms</option>
+    </select>
+  </nav>
+  <main>
+    <section id="records-section">
+      <button id="add-reservation-btn" class="center-btn" onclick="addReservationButton()">Add Reservation</button>
+      <button id="add-hotel-btn" class="center-btn" style="display: none;" onclick="addHotelButton()">Add Hotel</button>
+      <button id="add-room-btn" class="center-btn" style="display: none;" onclick="addRoomButton()">Add Room</button>
+      <input type="text" id="search-input" placeholder="Search records..." class="center-input" oninput="searhLogic(event)">
+      <h2>Reservations:</h2>
+      <table id="records-table" class="responsive-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Fiscal Code</th>
+            <th>Hotel</th>
+            <th>Room</th>
+            <th>People</th>
+            <th>Check-in Date</th>
+            <th>Check-out Date</th>
+            <th>Price</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="reservation-records">
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <div id="toast" class="toast">Please contact customer service</div>
+  <div id="toastComponent" class="toastCmp"></div>
+
+  <script src="/static/scriptHomeAdmin.js"></script>
+</body>
+</html>

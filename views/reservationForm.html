@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=author content="Marco Arci">
+    <title>Reservation form</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <form id="reservation-form" onsubmit="submitLogic(event)">
+
+        <label for="room-type">Room Type:</label>
+        <select id="room-type" name="room-type" onchange="updateTotalPrice()">
+            <option value="economy">Economy</option>
+            <option value="business">Business</option>
+            <option value="luxury">Luxury</option>
+        </select>
+
+        <label for="people">People:</label>
+        <select id="people" name="people" onchange="updateTotalPrice()">
+            <option disabled selected value=""> -- select an option -- </option>
+            <option value="1">Single</option>
+            <option value="2">Double</option>
+            <option value="3">Triple</option>
+            <option value="4">Quadruple</option>
+        </select>
+
+        <label for="check-in">Check-in Date:</label>
+        <input type="date" id="check-in" name="check-in" onchange="validateDates()" required>
+
+        <label for="check-out">Check-out Date:</label>
+        <input type="date" id="check-out" name="check-out" onchange="validateDates()" required>
+
+        <label for="customer-fiscal-code">Customer Fiscal Code:</label>
+        <input type="text" id="customer-fiscal-code" name="customer-fiscal-code" maxlength="16" onblur="validateFiscalCode(event)" required>
+
+        <label for="total-price">Total price:</label>
+        <input type="text" id="total-price" class="notClickable" name="total-price" readonly>
+
+        <button type="submit">Confirm Reservation</button>
+    </form>
+
+    <div id="toast" class="toast"></div>
+
+<script src="/static/scriptReservationForm.js"></script>
+</body>
+</html>

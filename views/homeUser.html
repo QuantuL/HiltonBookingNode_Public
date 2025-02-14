@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name=author content="Marco Arci">
+  <title>User Home</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <img src="/logo.png" alt="Hilton Logo" class="logo">
+    <h1 class="center">Welcome to the Hilton Booking Service!</h1>
+  </header>
+  <main>
+    <section id="records-section">
+      <button id="make-reservation-btn" class="center-btn">Make a Reservation</button>
+      <input type="text" id="search-input" placeholder="Search reservations..." class="center-input" onchange="searchLogic(event)">
+      <h2>Your Reservations:</h2>
+      <table id="records-table" class="responsive-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Fiscal Code</th>
+            <th>Hotel</th>
+            <th>Room</th>
+            <th>People</th>
+            <th>Check-in Date</th>
+            <th>Check-out Date</th>
+            <th>Price</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="reservation-records">
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <div id="toast" class="toast"></div>
+  <div id="toastComponent" class="toastCmp"></div>
+
+  <script src="/static/scriptHomeUser.js"></script>
+</body>
+</html>
