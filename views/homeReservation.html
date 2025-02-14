@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=author content="Marco Arci">
+    <title>Home Reservation</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <img src="/logo.png" alt="Logo Hilton" class="logo">
+        <h1>Welcome to the Hilton Booking Service!</h1>
+    </header>
+    <main>
+        <form id="searching-form" onsubmit="searhHotels(event)">
+            <label for="city">Comune:</label>
+            <input type="text" id="city" name="city">
+            <button type="submit">Ricerca albergo</button>
+        </form>
+        <table id="records-table" class="responsive-table">
+            <thead>
+                <tr>
+                    <th>Hotel Name</th>
+                    <th>City</th>
+                    <th>Address</th>
+                    <th>Rating</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <div id="toast" class="toast"></div>
+    <div id="toastComponent" class="toastCmp"></div>
+
+    <script src="/static/scriptHomeReservation.js"></script>
+</body>
+</html>

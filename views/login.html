@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name=author content="Marco Arci">
+  <title>Login</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <img src="/logo.png" alt="Logo Hilton" class="logo">
+    <h1>Welcome to the Hilton Booking Service!</h1>
+  </header>
+  <main>
+      <form id="login-form" onsubmit="submitLogic(event)">
+          <label for="email">email:</label>
+          <input type="text" id="email" name="email" required>
+
+          <label for="password">password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+          <button type="button" id="sign-in-button" onclick="window.location.href='/signIn'">Sign In</button>
+      </form>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="/static/scriptLogin.js"></script>
+</body>
+</html>

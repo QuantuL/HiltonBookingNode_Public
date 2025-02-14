@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name=author content="Marco Arci">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <img src="/logo.png" alt="Hilton Logo" class="logo">
+    <h1 class="center">Welcome to the Hilton Booking Service!</h1>
+  </header>
+  <main>
+      <form id="sign-in-form" onsubmit="submitLogic(event)">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required>
+
+          <label for="confirm-email">Confirm Email:</label>
+          <input type="text" id="confirm-email" name="confirm-email" onblur="validateEmailMatch(event)" required>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" onblur="validatePasswordMatch(event)" required>
+
+          <label for="fiscal-code">Fiscal Code:</label>
+          <input type="text" id="fiscal-code" name="fiscal-code" maxlength="16" onblur="validateFiscalCode(event)" required>
+
+          <label for="role">Role:</label>
+          <select id="role" name="role" required>
+            <option disabled selected value> -- select an option -- </option>
+            <option value="administrator">Administrator</option>
+            <option value="user">User</option>
+          </select>
+        <button type="submit" id="submit-button" disabled>Complete</button>
+      </form>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="/static/scriptSignIn.js"></script>
+</body>
+</html>
