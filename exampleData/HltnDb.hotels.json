@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6788d625a7b742737c664ba6"
+  },
+  "name": "Hotel Hilton Rome Airport",
+  "city": "Fiumicino",
+  "postalCode": "00054",
+  "address": " Via Arturo Ferrarin 2",
+  "rating": "***",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6797955dfea5970252744352"
+  },
+  "name": "Hilton Molino Stucky Venice",
+  "city": "Venezia",
+  "postalCode": "30133",
+  "address": "Giudecca, 810",
+  "rating": "*****",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d460a9048c5af8216547"
+  },
+  "name": "Hilton Milan",
+  "city": "Milano",
+  "postalCode": "20124",
+  "address": "Via Luigi Galvani, 12",
+  "rating": "****",
+  "__v": 0
+}]

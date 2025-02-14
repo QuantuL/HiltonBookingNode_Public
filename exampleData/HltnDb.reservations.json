@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "67a1cef3821423548c2036ef"
+  },
+  "customer": {
+    "fiscalCode": "RCAMRC00D05A269I"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "6788d625a7b742737c664ba6"
+    },
+    "name": "Hotel Hilton Rome Airport"
+  },
+  "resroom": {
+    "_id": {
+      "$oid": "6788d6a0a7b742737c664bd6"
+    },
+    "roomnumber": "202",
+    "type": "business"
+  },
+  "checkin": {
+    "$date": "2025-02-11T00:00:00.000Z"
+  },
+  "checkout": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "totalPrice": 740,
+  "people": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d50ba9048c5af821656a"
+  },
+  "customer": {
+    "fiscalCode": "FNTFNG36M04E479W"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan"
+  },
+  "resroom": {
+    "_id": {
+      "$oid": "67a1d47ba9048c5af8216551"
+    },
+    "roomnumber": "201",
+    "type": "business"
+  },
+  "checkin": {
+    "$date": "2025-02-18T00:00:00.000Z"
+  },
+  "checkout": {
+    "$date": "2025-02-20T00:00:00.000Z"
+  },
+  "totalPrice": 460,
+  "people": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d54da9048c5af8216575"
+  },
+  "customer": {
+    "fiscalCode": "RCAMRC00D05A269I"
+  },
+  "hotel": {
+    "_id": {
+      "$oid": "67a1d460a9048c5af8216547"
+    },
+    "name": "Hilton Milan"
+  },
+  "resroom": {
+    "_id": {
+      "$oid": "67a1d47da9048c5af8216553"
+    },
+    "roomnumber": "202",
+    "type": "business"
+  },
+  "checkin": {
+    "$date": "2025-02-19T00:00:00.000Z"
+  },
+  "checkout": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "totalPrice": 795,
+  "people": 3,
+  "__v": 0
+}]

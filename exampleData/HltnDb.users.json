@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "67a1d334a9048c5af8216516"
+  },
+  "email": "studente@email.com",
+  "password": "password",
+  "role": "user",
+  "fiscalCode": "RCAMRC00D05A269I",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d3a6a9048c5af8216525"
+  },
+  "email": "professore@gmail.com",
+  "password": "admin",
+  "role": "administrator",
+  "fiscalCode": "TAAXVN40D28A240E",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a1d4e5a9048c5af8216561"
+  },
+  "email": "cliente@email.com",
+  "password": "cliente",
+  "role": "user",
+  "fiscalCode": "FNTFNG36M04E479W",
+  "__v": 0
+}]
